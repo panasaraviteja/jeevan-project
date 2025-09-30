@@ -150,7 +150,7 @@ def urlPhishing():
             blocked = False
 
         if blocked:
-            prediction_label += " Website is blocked."
+            prediction_label += " Website is blockeddddd."
             url = ""
 
         return render_template('urlPhishing.html', prediction_label=prediction_label, url=url)
